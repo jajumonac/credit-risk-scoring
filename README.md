@@ -26,7 +26,13 @@ Lenders face a core trade-off: approving too many risky applicants increases def
 
 ## Key Results
 
-*(To be updated as model is built)*
+| Metric | Logistic Regression | XGBoost |
+|--------|---------------------|---------|
+| ROC-AUC | 0.801 | 0.798 |
+| Recall — No Default | 0.86 | 0.90 |
+| Recall — Default | 0.58 | 0.45 |
+
+**Logistic Regression is the recommended model.** Despite XGBoost's slightly higher approval rate, it only catches 45% of actual defaulters vs Logistic Regression's 58% — a meaningful gap in a domain where missed defaults translate directly to financial loss. Logistic Regression also wins on ROC-AUC and provides the coefficient-level explainability required by financial regulators (Basel III, ECOA).
 
 ## Stack
 
