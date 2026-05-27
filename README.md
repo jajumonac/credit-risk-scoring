@@ -44,4 +44,4 @@ Lenders face a core trade-off: approving too many risky applicants increases def
 ## Author
 
 Jadiel Montero — Freelance Data Scientist specializing in predictive models for financial businesses.
-[LinkedIn](#) | [Upwork](#)
+[LinkedIn](https://www.linkedin.com/in/jadiel-montero-230814142/) | [Upwork](https://www.upwork.com/freelancers/~01d2e510be92ca3e00?mp_source=share)
